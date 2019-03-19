@@ -1,7 +1,7 @@
 (function(global, $) {
 
     "use strict";
-    
+
     const Greetr = function(firstname, lastname, language) {
         return new Greetr.init(firstname, lastname, language);
     }
