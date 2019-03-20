@@ -19,4 +19,4 @@
 
     global.Greetr = global.G$ = Greetr;
 
-})(window, jQuery);
+})(typeof(window) !== 'undefined' ? window : this, jQuery);
